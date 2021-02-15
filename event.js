@@ -7,12 +7,6 @@ $(document).ready(function(){
 
     $.getJSON("api.php").done((e) => {
         data = e.XML_Head.Infos.Info
-        // console.log(data)
-        // for (const item of data) {
-        //     if (item.Region == "臺北市") {
-        //         taipei.push(item)
-        //     }
-        // }
         for(let i=0;i<data.length;i++){
             switch(data[i].Region){
                 case '臺北市':
