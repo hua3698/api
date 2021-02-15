@@ -3,20 +3,27 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="交通部觀光局蒐集各地觀光資訊，內容包含旅遊景點、活動訊息、餐飲美食及旅館民宿等資料，提供遊客無縫隙旅遊資訊服務。">
+    <meta name="keywords" content="event, tourism, api, attraction, local">
+    <meta name="title" content="Event_API 觀光活動一覽表">
+    <meta name="author" content="Claire S.">
+    <meta name="copyright" content="Claire S. ©版權所有">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Data API</title>
+    <link rel="shortcut icon" href="plugins/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="plugins/slick.css" />
     <link rel="stylesheet" type="text/css" href="plugins/slick-theme.css" />
     <link rel="stylesheet" href="my.css">
+    <script src="https://kit.fontawesome.com/b6159c26a6.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="event.js"></script>
 </head>
 
 <body>
-    <div class="container">
+    <header class="con">
         <nav>活動快訊</nav>
         <div id="carouselExampleFade" class="carousel slide carousel-fade mb-5" data-ride="carousel">
             <div class="carousel-inner">
@@ -39,216 +46,44 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <div class="district">
+    </header>
+
+    <div class="main">
+        <div class="con district">
             <div class="col-12">
                 <div class="name">北部</div>
             </div>
-            <div class="row">
-                <div class="col-4">
-                    <div class="card" style="width:100%;">
-                        <img src="https://fakeimg.pl/300x160/" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
-                        </div>
-                        <div class="card-body">
-                            <a href="#" class="card-link linka">More...</a>
-                            <a href="#" target="_blank" class="card-link linkb">點我去官網</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card" style="width:100%;">
-                        <img src="https://fakeimg.pl/300x160/" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
-                        </div>
-                        <div class="card-body">
-                            <a href="#" class="card-link linka">More...</a>
-                            <a href="#" target="_blank" class="card-link linkb">點我去官網</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card" style="width:100%;">
-                        <img src="https://fakeimg.pl/300x160/" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
-                        </div>
-                        <div class="card-body">
-                            <a href="#" class="card-link linka">More...</a>
-                            <a href="#" target="_blank" class="card-link linkb">點我去官網</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card" style="width:100%;">
-                        <img src="https://fakeimg.pl/300x160/" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
-                        </div>
-                        <div class="card-body">
-                            <a href="#" class="card-link linka">More...</a>
-                            <a href="#" target="_blank" class="card-link linkb">點我去官網</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="row"></div>
         </div>
-        <!-- <div class="row district">
+        <div class="con district">
             <div class="col-12">
                 <div class="name">中部</div>
             </div>
-            <div class="col-4">
-                <div class="card" style="width:100%;">
-                    <img src="https://fakeimg.pl/300x160/" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the
-                            bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link linka">More...</a>
-                        <a href="#" target="_blank" class="card-link linkb">點我去官網</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card" style="width:100%;">
-                    <img src="https://fakeimg.pl/300x160/" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the
-                            bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link linka">More...</a>
-                        <a href="#" target="_blank" class="card-link linkb">點我去官網</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card" style="width:100%;">
-                    <img src="https://fakeimg.pl/300x160/" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the
-                            bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link linka">More...</a>
-                        <a href="#" target="_blank" class="card-link linkb">點我去官網</a>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- <div class="row district">
+            <div class="row"></div>
+        </div>
+        <div class="con district">
             <div class="col-12">
                 <div class="name">南部</div>
             </div>
-            <div class="col-4">
-                <div class="card" style="width:100%;">
-                    <img src="https://fakeimg.pl/300x160/" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the
-                            bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link linka">More...</a>
-                        <a href="#" target="_blank" class="card-link linkb">點我去官網</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card" style="width:100%;">
-                    <img src="https://fakeimg.pl/300x160/" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the
-                            bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link linka">More...</a>
-                        <a href="#" target="_blank" class="card-link linkb">點我去官網</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card" style="width:100%;">
-                    <img src="https://fakeimg.pl/300x160/" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the
-                            bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link linka">More...</a>
-                        <a href="#" target="_blank" class="card-link linkb">點我去官網</a>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- <div class="row district">
+            <div class="row"></div>
+        </div>
+        <div class="con district">
             <div class="col-12">
                 <div class="name">東部</div>
             </div>
-            <div class="col-4">
-                <div class="card" style="width:100%;">
-                    <img src="https://fakeimg.pl/300x160/" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the
-                            bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link linka">More...</a>
-                        <a href="#" target="_blank" class="card-link linkb">點我去官網</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card" style="width:100%;">
-                    <img src="https://fakeimg.pl/300x160/" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the
-                            bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link linka">More...</a>
-                        <a href="#" target="_blank" class="card-link linkb">點我去官網</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card" style="width:100%;">
-                    <img src="https://fakeimg.pl/300x160/" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the
-                            bulk of the card's content.</p>
-                    </div>
-                    <div class="card-body">
-                        <a href="#" class="card-link linka">More...</a>
-                        <a href="#" target="_blank" class="card-link linkb">點我去官網</a>
-                    </div>
-                </div>
-            </div>
-        </div> -->
+            <div class="row"></div>
+        </div>
     </div>
+    <footer class="d-flex justify-content-center">
+        <div class="con w-25 h-50">
+            <div>友善連結：<a href="https://data.gov.tw/" target="_blank">政府資料開放平台<i
+                        class="pl-2 fas fa-external-link-alt"></i></a></div>
+            <div>服務分類：休閒旅遊 > <a href="https://data.gov.tw/dataset/7778" target="_blank">活動 - 觀光資訊資料庫<i
+                        class="pl-2 fas fa-external-link-alt"></i></a></div>
+            <div>提供機關：交通部觀光局</div>
+        </div>
+    </footer>
     <script src="plugins/slick.min.js"></script>
-
-    <script>
-
-    </script>
 </body>
 <script>
 

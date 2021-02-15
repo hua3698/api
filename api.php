@@ -9,5 +9,4 @@ function load_cc($url){
     return $data;
 }
 echo $content=load_cc("https://gis.taiwan.net.tw/XMLReleaseALL_public/activity_C_f.json");
-
 ?>
