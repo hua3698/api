@@ -78,7 +78,7 @@ $(document).ready(function(){
                         <div class="card-body">
                             <h5 class="card-title">${title}</h5>
                             <h6 class="card-subtitle mb-3 text-muted">${subtitle}</h6>
-                            <p class="card-text">${des}...</p>
+                            <p class="card-text" style="height:90px;">${des}...</p>
                             <span class="text-muted pr-3">點我看更多</span>
                             <a href="${location[i].Website}" target="_blank" class="card-link my-3">點我去官網</a>
                         </div>

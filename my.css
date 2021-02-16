@@ -27,7 +27,25 @@ nav{
     background: #eee;
     padding-bottom: 1rem;
 }
-
+.hot{
+    height: 250px;
+}
+.title{
+    font-size: 2rem;
+}
+.icon>a{
+    width: 100px;
+    height: 100px;
+}
+.cir{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background: #74a0a0;
+}
+.cir>i{
+    color: #f6f6f6;
+}
 .district{
     margin-bottom: 1rem;
 }
