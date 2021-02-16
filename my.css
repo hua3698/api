@@ -15,12 +15,19 @@ nav{
     text-align: center;
     padding: 20px 0;
 }
+.carousel-caption{
+    bottom: -10px;
+    right: 0%;
+    left: 0%;
+    background: rgba(12, 12, 12, 0.6);
+}
 .main{
     width: 100%;
     height: fit-content;
     background: #eee;
     padding-bottom: 1rem;
 }
+
 .district{
     margin-bottom: 1rem;
 }
@@ -35,11 +42,11 @@ nav{
     margin: 20px 45%;
 }
 .cardImg{
-    height: 230px !important;
+    height: 220px !important;
     overflow: hidden;
 }
 .card-body{
-    height: 200px;
+    height: 230px;
 }
 .card-title{
     color: darkcyan;
